@@ -46,10 +46,8 @@ export const TransactionProvider = ({ children }) =>{
             throw new Error("No ethereum object.")
             
         }
-        
-       
-       
     }
+
 
     const connectWallet = async ()=> {
         try {
